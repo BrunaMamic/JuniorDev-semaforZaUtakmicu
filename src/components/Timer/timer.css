@@ -1,0 +1,10 @@
+.timer{
+    color: rgb(10 15 40 / 95%);
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    margin: 10px 0 10px 0;
+}
+
+.startButton{
+    margin-right: 10px;
+}

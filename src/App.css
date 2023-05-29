@@ -1,0 +1,60 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  opacity: 0.8;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://rg-www-prod-cd.azurewebsites.net/dfsmedia/1281ba27c7364299935b6ca4e198a70d/100506-50111/2to1-gettyimages-907564374");
+}
+
+.mainPart {
+  background-color: rgb(255 255 255 / 75%);
+  border-radius: 5%;
+  width: auto;
+  height: 21rem;
+}
+
+.logoApp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(10 15 40 / 95%);
+  border-radius: 5%;
+  height: 209px;
+}
+
+.tipke {
+  display: flex;
+}
+
+.scoreDisplay {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 25px;
+}
+
+.teamOne {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.teamTwo {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.resetButton, .startButton {
+  background-color: rgb(5, 10, 37);
+}
+
+.resetButton:hover, .startButton:hover {
+  background-color: rgb(40, 51, 115);
+}
